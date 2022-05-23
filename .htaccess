@@ -1,0 +1,9 @@
+RewriteEngine On
+
+ErrorDocument 404 /404.php
+RewriteRule ^index$ index.html [L]
+RewriteRule ^trang_chu trangchu.html [L]
+RewriteRule ^99k$ 99k.html [L]
+RewriteRule ^t99k$ t99k.html [L]
+RewriteRule ^t199k$ t199k.html [L]
+RewriteRule ^tranngdangnhap$ dangnhap.html [L]
